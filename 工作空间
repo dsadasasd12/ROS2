@@ -1,0 +1,6 @@
+1.创建工作空间
+ mkdir -p chapt2_ws/src
+2.(1)构建功能包
+  colcon build
+  (2)构建一个功能包
+  colcon build --packages-select 功能包名字
