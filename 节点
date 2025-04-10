@@ -1,0 +1,7 @@
+1.创建功能包
+ros2 pkg create demo_cpp_pkg --build-type ament_cmake --lience Apache-2.0
+ros2 pkg create:创建功能包
+demo_cpp_pkg:名字
+--build-type ament_cmake：表示指定功能包的构建类型为 ament_cmake
+--liencese Apache-2.0：声明功能包开源协议
+2.
