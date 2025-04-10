@@ -4,4 +4,14 @@ ros2 pkg create:创建功能包
 demo_cpp_pkg:名字
 --build-type ament_cmake：表示指定功能包的构建类型为 ament_cmake
 --liencese Apache-2.0：声明功能包开源协议
-2.
+2.注册节点并且添加依赖
+修改CmMakeLixts.txt文件
+find_package和add_executable用于查找依赖以及添加可执行文件
+ament_target_dependencise添加依赖
+install将编译好的可执行文件复制到目录
+3.在清单文件packages.xml中添加对rclcpp的依赖声明
+4.构建功能包
+colcon build
+5.运行节点
+source install/setup.bash
+ros2 run demo_cpp_pkg cpp_node
