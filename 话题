@@ -1,0 +1,5 @@
+1.创建工作空间
+mkdir -p chapt3_ws/src
+2.创建功能包和依赖
+os2 pkg create demo_cpp_topic --build-type ament_cm
+ake --dependencies rclcpp geometry_msgs turtlesim --license Apxche-2.0
