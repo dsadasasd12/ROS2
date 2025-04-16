@@ -1,4 +1,4 @@
 1.使用URDF(通用机器人描述格式)
   安装命令 sudo apt install liburdfdom-tools
-2.urdf_to_graphviz first_robot.urdf 
+2.urdf_to_graphiz first_robot.urdf （编译urdf文件）
   first_robot.urdf 文件名
