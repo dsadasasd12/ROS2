@@ -9,3 +9,5 @@ mkdir -p ~/.gazebo
 cd ~、。gazebo
 git clone https://gitee.com/ohhuo/gazebo_models.git ~/.gazebo/models
 rm -rf ~/.gazebo/models/.git   #删掉 .git防止误识别为模型
+3.运行 
+gazebo
