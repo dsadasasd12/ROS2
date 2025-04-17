@@ -4,3 +4,8 @@ wget https://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
 sudo apt-get update
 sudo apt-get install gazebo11
 sudo apt-get install libgazebo11-dev
+2.安装模型
+mkdir -p ~/.gazebo
+cd ~、。gazebo
+git clone https://gitee.com/ohhuo/gazebo_models.git ~/.gazebo/models
+rm -rf ~/.gazebo/models/.git   #删掉 .git防止误识别为模型
