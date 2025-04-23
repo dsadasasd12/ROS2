@@ -1,0 +1,7 @@
+l	list	查看源码
+b	break	设置断点
+r	run	运行程序，在断点处停止
+n	next	单条语句执行
+c	continue	继续运行程序，下一个断点处停止
+p	print	打印
+q	quit	退出GDB
